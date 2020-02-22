@@ -18,6 +18,7 @@ import java.io.File;
 
 public class AppMain {
     public static void main(String[] args) {
+        //
         System.setProperty("sun.java2d.d3d", "false");
         System.setProperty("jna.nosys", "true");
         new ErrorHandler();
